@@ -3,12 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "next build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "start": "vite preview"
+}
+,
   "dependencies": {
     "@tailwindcss/vite": "^4.0.15",
     "react": "^19.0.0",
