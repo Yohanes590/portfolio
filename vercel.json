@@ -1,0 +1,28 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/static-build"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/about",
+        "dest": "/index.html"
+      },
+      {
+        "src": "/projects",
+        "dest": "/index.html"
+      },
+      {
+        "src": "/contact",
+        "dest": "/index.html"
+      },
+      {
+        "src": "/certeficate",
+        "dest": "/index.html"
+      }
+    ]
+  }
+  

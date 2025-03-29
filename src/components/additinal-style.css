@@ -1,0 +1,96 @@
+.card-one-o-1 .absolute-part {
+    position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.623));
+    width: 80%;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    opacity: 0;
+    transition: 400ms;
+    z-index: 1;
+}
+
+.card-one-o-1 img {
+    filter: brightness(60%);
+    z-index: -1;
+    transition: 400ms;
+    scale: 1.02;
+}
+
+.card-one-o-1:hover .absolute-part {
+    opacity: 1;
+}
+
+.card-one-o-1:hover img {
+    filter: blur(4px);
+    scale: 1.05;
+}
+
+@media (max-width:1279px) {
+    .skill-section {
+        height: auto;
+    }
+
+    .skill-section .card {
+        margin-top: 50px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .projects {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width:1279px) {
+    .social-platform {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .social-platform hr {
+        width: 100%;
+    }
+}
+
+@media (max-width:729px) {
+    .social-platform .context {
+        margin-left: 0px;
+        text-align: center;
+    }
+}
+
+@media (max-width:577px) {
+    .contact-input {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact-input input {
+        width: 90%;
+    }
+
+    .contact-input textarea {
+        width: 90%;
+    }
+
+    .contact-input button {
+        width: 90%;
+    }
+}
+
+@media (max-width:767px) {
+    .card-one-o-1 .absolute-part {
+        height: auto;
+        position: relative;
+        background: none;
+    }
+}
+
+@media (max-width:444) {
+    #scale-button {
+        margin-top: 20px;
+    }
+}
