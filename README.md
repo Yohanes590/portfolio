@@ -19,9 +19,8 @@ A modern, glass-morphism inspired portfolio website built with **React + Vite**,
 - 🪄 Glass-morphism design aesthetic
 - 📱 Fully responsive layout
 - 🎭 Smooth animations and transitions
-- 🌓 Light/Dark mode toggle
 - 📬 Functional contact form
-- 🏷️ Project showcase with filtering
+- 🏷️ Project showcase 
 
 ## 🛠️ Installation
 
