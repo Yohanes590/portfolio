@@ -1,6 +1,6 @@
 # 🌟 My Portfolio Website ✨
 
-![Demo Screenshot](/Screenshot 2025-05-10 225314.png) 
+![Demo Screenshot](./screenshot) 
 
 A modern, glass-morphism inspired portfolio website built with **React + Vite**, styled with **Tailwind CSS**, and enhanced with beautiful UI components. 
 
