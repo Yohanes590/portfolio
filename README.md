@@ -4,7 +4,7 @@
 
 A modern, glass-morphism inspired portfolio website built with **React + Vite**, styled with **Tailwind CSS**, and enhanced with beautiful UI components. 
 
-🔗 **Live Demo:** [https://yohanes-m.vercel.app/](#) 
+🔗 **Live Demo:** https://yohanes-m.vercel.app/
 ## 🚀 Tech Stack
 
 - ⚡ **Frontend Framework:** React (Vite)
