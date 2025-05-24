@@ -10,7 +10,7 @@ function ContactPart() {
         } else if (linkType == 'instagram') {
             window.open('https://instagram.com/mrx_man21')
         } else if (linkType == 'linkedin') {
-            window.open('https://linkedin.com/in/yohanes-mulugeta-12010532b/')
+            window.open('https://linkedin.com/in/yohanes-mulugeta21/')
         }
     }
     return (<>
